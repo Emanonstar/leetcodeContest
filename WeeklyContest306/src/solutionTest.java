@@ -17,6 +17,5 @@ public class solutionTest {
         assertEquals(1005, s.countSpecialNumbers(1581));
         assertEquals(178, s.countSpecialNumbers(225));
         assertEquals(90, s.countSpecialNumbers(99));
-
     }
 }
