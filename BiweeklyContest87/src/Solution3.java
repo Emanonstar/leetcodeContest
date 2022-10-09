@@ -1,4 +1,4 @@
-class Solution {
+class Solution3 {
     public int[] smallestSubarrays(int[] nums) {
         int l = nums.length;
         int[] maxOr = new int[l];
