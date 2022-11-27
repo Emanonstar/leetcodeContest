@@ -51,7 +51,7 @@ class Solution4 {
             for (int j = 0; j < 100; j++) {
                 ans[i] = (ans[i] + (long) dp2[i - 1][j] * dp4[i + 1][j]) % mol;
             }
-            System.out.println(ans[i]);
+            //System.out.println(ans[i]);
         }
         return (int) ans[l - 3];
     }
